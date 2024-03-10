@@ -1,6 +1,6 @@
 {
-  "name": "sanity-plugin-icon-picker",
-  "version": "3.3.0",
+  "name": "@prospero-labs/sanity-plugin-icon-picker",
+  "version": "4.0.0",
   "description": "An Icon Picker plugin for Sanity",
   "keywords": [
     "sanity",
@@ -10,16 +10,16 @@
     "custom input",
     "sanity field"
   ],
-  "homepage": "https://github.com/christopherafbjur/sanity-plugin-icon-picker#readme",
+  "homepage": "https://github.com/prospero-labs/sanity-plugin-icon-picker",
   "bugs": {
-    "url": "https://github.com/christopherafbjur/sanity-plugin-icon-picker/issues"
+    "url": "https://github.com/prospero-labs/sanity-plugin-icon-picker/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christopherafbjur/sanity-plugin-icon-picker.git"
+    "url": "git+https://github.com/prospero-labs/sanity-plugin-icon-picker.git"
   },
   "license": "MIT",
-  "author": "Christopher Af Bjur",
+  "author": "Christopher Af Bjur, Prospero Labs",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -34,12 +34,7 @@
   "module": "./dist/index.esm.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "sanity.json",
-    "src",
-    "v2-incompatible.js"
-  ],
+  "files": ["dist", "sanity.json", "src", "v2-incompatible.js"],
   "scripts": {
     "build": "run-s clean && plugin-kit verify-package --silent && pkg-utils build --strict && pkg-utils --strict",
     "clean": "rimraf dist",
