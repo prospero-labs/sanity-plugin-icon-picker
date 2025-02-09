@@ -1,6 +1,5 @@
-import pi from './pi';
 import type { ProviderConfiguration } from '../types';
 
-const providers: ProviderConfiguration[] = [pi];
+const providers: ProviderConfiguration[] = [];
 
 export default providers;
