@@ -59,7 +59,7 @@
     "@sanity/incompatible-plugin": "^1.0.4",
     "decamelize": "3.2.0",
     "framework7-icons": "^5.0.5",
-    "react-icons": "^4.8.0",
+    "react-icons": "^4.12.0",
     "react-virtualized-auto-sizer": "^1.0.5",
     "react-window": "^1.8.6",
     "sanity": "^3"
@@ -107,5 +107,6 @@
   "engines": {
     "node": ">=14"
   },
-  "sanityExchangeUrl": "https://www.sanity.io/plugins/icon-picker"
+  "sanityExchangeUrl": "https://www.sanity.io/plugins/icon-picker",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
